@@ -1,0 +1,44 @@
+ h1 {
+    color:blue;
+ }
+       #main-container{
+        background-color: black;
+        display: grid;
+        gap: 5px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 150px 150px 150px;
+
+       }
+
+#item1{
+    background-color: beige;
+    grid-column-start: 1;
+     grid-column-end: 4;
+}
+#item2{
+    
+    background-color: blueviolet;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+#item3{
+    background-color:red;
+}
+#item4{
+    background-color: green;
+}
+#item5{
+    background-color:grey;
+}
+#item6{
+    background-color: burlywood;
+}
+#item7{
+    background-color: aqua;
+}
+#item8{
+    background-color:slateblue;
+}
+#item9{
+    background-color: hotpink;
+}
