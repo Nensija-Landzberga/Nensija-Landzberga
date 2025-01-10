@@ -1,0 +1,54 @@
+.active{
+    background-color:cornflowerblue;
+    font-weight:bold;
+
+}
+
+#main-container{
+    background-color:black;
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+    grid-template-rows: repeat(5,150px);
+    gap:5px;
+   
+    
+   
+
+
+}
+#item1{
+    background-color: dodgerblue;
+    grid-column:3/4;
+}
+#item2{
+    background-color: hotpink;
+    grid-column:2/3;
+}
+#item3{
+    background-color: hotpink;
+    grid-column:3/4;
+}
+#item4{
+    background-color: hotpink;
+    grid-column:4/5;
+}
+#item5{
+    background-color:cadetblue;
+    grid-column:1/2;
+}
+#item6{
+    background-color:cadetblue;
+    grid-column:2/3;
+}
+#item7{
+    background-color: cadetblue;
+    grid-column:3/4;
+}
+#item8{
+    background-color: cadetblue;
+    grid-column:4/5;
+}
+#item9{
+    background-color: cadetblue;
+    grid-column:5/6;
+}
